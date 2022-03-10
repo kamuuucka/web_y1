@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DF5B57;
+    padding: 20px 30px 10px 0;
+}
+
+header h1 {
+    text-align: right;
+}
+
+.centered {
+    margin: auto;
+    width: 500px;
+    padding-top: 200px;
+    color: white;
+}
+
+.centered a {
+    color: white;
+    text-decoration: none;
+}
+
+.centered h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.centered p {
+    font-size: 20px;
+}
+
+.membership {
+    font-family: 'Bree Serif', serif;
+    background-image: url("../images/main.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.introduction {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
+    margin: auto;
+    margin-top: -150px;
+}
+
+.introduction h1 {
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 14px;
+    padding: 6px;
+    text-align: center;
+}
+
+.introduction p {
+    background-color: #DF5B57;
+    color: black;
+    padding: 20px 35px;
+    text-align: justify;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.right {
+    background-color: black;
+    float: right;
+    padding: 20px;
+}
+
+.right a {
+    color: #DF5B57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    background-color: #E5E3E4;
+}
+
+article {
+    clear: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+article h1 {
+    padding: 50px;
+    font-weight: bold;
+    color: #DF5B57;
+    border-bottom: 50px solid #DF5B57;
+}
+
+article p {
+    padding-top: 30px;
+    margin-left: 150px;
+    font-size: 15px;
+    line-height: 22px;
+}

@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Boris Slaghuis, sans-serif; */
+    /* The font is not displayed, because I don't have it on my computer.
+    The base font is Arial*/
+}
+
+body {
+    background-color: #EFEDE0;
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
+}
+
+p a {
+    font-family: 'Old Standard TT', serif;
+}
+
+a {
+    color: #E65C00;
+}
