@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+main{
+    position:relative;
+    top:200px;
+    height:200px;
+    width:600px;
+    margin:0 auto;
+    font-size: 0;
+}
+figure{
+    display:inline-block;
+    position:absolute;
+    width:200px;
+    height:200px;
+}
+figure:hover{
+    z-index:1;
+}
+figure:hover img{
+    margin-top:40px;
+    margin-left:40px;
+    box-shadow: -20px -20px 17px 6px rgba(0,0,0,0.41);
+}
+figure:nth-child(1){
+    left:0;
+}
+figure:nth-child(2){
+    left:200px;
+}
+figure:nth-child(3){
+     left:400px;
+}
+
+img{
+    font-size: 0;
+    width:200px;
+    height:200px;
+}

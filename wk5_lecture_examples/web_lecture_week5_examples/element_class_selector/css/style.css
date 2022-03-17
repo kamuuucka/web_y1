@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    height:40px;
+    border:2px solid black;
+}
+div .div{
+    background-color:blue;
+}
+div.div{
+    background-color:purple;
+}
+
+

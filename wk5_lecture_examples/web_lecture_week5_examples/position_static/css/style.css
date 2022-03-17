@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:800px;
+    margin:0 auto;
+}
+figure{
+    position:static;
+    width:200px;
+    height:200px;
+}
+article:first-child{
+    background-color: green;
+}
+article:nth-child(2){
+    background-color: blue;
+}
+img{
+    width:200px;
+    height:200px;
+}

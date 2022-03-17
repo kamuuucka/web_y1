@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 2000px;
+	background-image: url('../images/bg.jpg');
+	background-repeat: repeat;
+}
+
+section{
+	position: fixed;
+	width: 180px;
+	height: 50px;
+	background-color: white;
+	top: 10vh;
+	left: 10vh;
+	padding-top: 3vh;
+	text-align: center;
+}

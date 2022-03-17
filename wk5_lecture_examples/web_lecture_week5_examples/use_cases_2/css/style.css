@@ -1,0 +1,23 @@
+body{
+    color:#444444;
+    width:1000px;
+    margin:0 auto;
+}
+header{
+    position:fixed;
+    width:1000px;
+    background-color:brown;
+    height:200px;
+    z-index: 1;
+}
+main{
+    position:relative;
+    top:200px;
+    padding:20px;
+}
+footer{
+    position:relative;
+    bottom:-200px;
+    height:30px;
+    background-color:green;
+}

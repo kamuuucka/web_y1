@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background-repeat: repeat;
+	background-image: url('../images/body-bg.jpg');
+}
+
+body{
+	font-size: 15px;
+	line-height: 150%;
+	font-family: Georgia,"Times New Roman",Times,serif;
+
+	background-repeat: no-repeat, no-repeat;
+	background-position: center top, center bottom;
+	background-image: url('../images/top-bg.jpg'), url('../images/bottom-bg.jpg');
+    
+    width: 1140px;
+	min-height: 100vh;
+	padding: 0 0 10px 0;
+	margin: auto;
+}
+
+h2{
+	margin: 0 0 10px 0;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 125%;
+	font-family: "Copse",Georgia,serif;
+	text-shadow: 0 2px 0 #fcf9ee, 0 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+a{
+	text-decoration: none;
+}
+
+section header{
+	width: 180px;
+	margin: 80px 0 0 0;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-image: url('../images/header-bg.png');
+	text-align: right;
+}
+
+section header h2 a{
+	color: #603913;
+	font-size: 32px;
+	font-family: "Copse",Georgia,serif;
+	text-transform: lowercase;
+}
+
+section header ul{
+	list-style-type: none;
+}
+
+section header nav a{
+	color: #8f0206;
+	font-size: 14px;
+	text-decoration: none;
+}
+section header nav a:hover{
+	color: #57320e;
+	border-color: #d1cb7d;
+	background-color: #f5ec82;
+}
+
+section header h3{
+	padding: 0 0 10px 0;
+	margin: 10px 0 10px 0;
+	color: #886c4d;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 120%;
+	font-style: italic;
+	border-bottom: 1px dashed #888888;
+	font-family: Baskerville,"Times New Roman",Times,serif;
+}
+main{
+	padding: 100px 0 0 225px;
+}
+
+main article{
+	margin: 0 0 20px 0;
+	border-bottom: 1px dashed #888888;
+}
+
+article h2 a{
+	color: #8f0206;
+}
+
+
+article p:not(.meta) a{
+	color: #834202;
+	background-color: #f7f3c5;
+	border-bottom: 1px solid #cfcebe;
+}
+
+article p.meta{
+	margin: 0 0 12px;
+	color: #bbbab1;
+	font-size: 13px;
+	line-height: 130%;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+article p a:hover{
+	color: #57320e;
+	border-color: #d1cb7d;
+	background-color: #f5ec82;
+}
+
+.meta a{
+	color: #6e6d67;
+	border-bottom: 1px solid #d0cfc7;
+}
+
+time{
+	color: #949289;
+	font-weight: bold;
+}
+
+article a.tag{
+	font-size: 12px;
+	font-style: italic;
+	font-family: Georgia,"Times New Roman",Times,serif;
+}

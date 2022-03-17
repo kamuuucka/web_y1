@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F5EBDF;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+	margin: 0 0 0 0;
+	color: #424242;
+	font-size: 36px;
+    font-weight: 600;
+	text-transform: uppercase;
+}
+
+h3{
+	margin: 0 0 32px 0;
+	color: #424242;
+	font-size: 24px;
+    font-weight: 600;
+	text-transform: uppercase;
+}
+
+p{
+	margin: 0 0 22px 0;
+    font-size: 16px;
+}
+
+section.wrapper{
+	width: 1000px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+article{
+	margin: 0 0 32px 0;
+}
+
+article img.right{
+	margin: 0 0 0 20px;
+	float: right;
+}
+
+nav.mainNavigation{
+	margin: 32px 0 48px 0;
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+
+nav.mainNavigation ul li{
+	padding: 10px;
+	display:inline-block;
+	text-transform: uppercase;
+}
+
+nav.mainNavigation li.active{
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+nav.mainNavigation li a{
+	padding: 0 10px 0 10px;
+	font-weight: 300;
+	color: #822209;
+	text-decoration: none;
+}
+
+nav.mainNavigation li a:hover{
+	text-decoration: underline;
+}
+
+nav.footerNavigation ul li{
+	margin: 0 10px 0 10px;
+	display: inline-block;
+}

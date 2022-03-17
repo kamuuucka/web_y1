@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #AAAAAA;
+}
+
+section{
+	width: 960px;
+	padding: 20px;
+	margin: 20px auto 0;
+	background-color: #FFFFFF;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.blockElements li{
+	display: inline;
+}
+
+.inlineElements a{
+	display: block;
+}
+
+.inlineBlockElements{
+	font-size: 0;
+}
+
+.inlineBlockElements a{
+	
+	display: inline-block;
+	padding: 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 16px;
+}

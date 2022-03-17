@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	background-color: #CCCCCC;
+}
+
+p{
+	padding: 20px;
+	margin: 0 0 30px 0;
+	background-color: #EEEEEE;
+}
+
+section{
+	width: 900px;
+	margin-top: 50px;
+	margin: auto;
+}
+
+.special{
+	position: relative;
+	top: -10px;
+	left: -60px;
+	background-color: rgb(255, 255, 255);
+}
