@@ -1,0 +1,25 @@
+body, div, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+main{
+    padding: 42px 24px 24px;
+}
+
+a{
+    padding: 12px 24px;
+    border-top: 2px solid #FFFFFF;
+}
+
+li:first-of-type a{
+    border-top: none;
+}
+
+p{
+    margin: 0 0 24px;
+}

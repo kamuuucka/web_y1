@@ -1,0 +1,28 @@
+body{
+    width:100vw;
+    height:100vh;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 992px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width:1200px){
+    body {
+        background-color: purple;
+    }
+}

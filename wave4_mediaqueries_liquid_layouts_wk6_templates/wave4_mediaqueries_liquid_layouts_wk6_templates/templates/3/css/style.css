@@ -1,0 +1,34 @@
+/*
+import the "style-large.css and style-small.css files here according to the browser window size.
+*/
+
+body, div, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    
+}
+
+
+a{
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+li:first-of-type a{
+    border-top: none;
+    border-left: none;
+}
+
+a:hover{
+    color: #000000;
+    background-color: #FFAAAA;
+}
+
+p{
+    line-height: 24px;
+}

@@ -1,0 +1,14 @@
+.mainNavigation li.active{
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+.mainNavigation li a:hover{
+	text-decoration: underline;
+}
+
+.footerNavigation ul li:last-child{
+	margin: 0;
+}

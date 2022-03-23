@@ -1,0 +1,11 @@
+li{
+    border:2px solid #ff4d4d;
+    border-width:0px 2px 2px 2px;
+    font-size: 60px;
+}
+
+a:first-child li{
+    border-top-width:2px;
+}
+
+

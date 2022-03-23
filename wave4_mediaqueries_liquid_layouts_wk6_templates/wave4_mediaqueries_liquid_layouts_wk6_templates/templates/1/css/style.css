@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+}
+
+div {
+    background-color: #834b4b;
+    max-width: 1000px;
+    margin: auto;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+}
