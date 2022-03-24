@@ -1,9 +1,10 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-    display:flex;
+
+body {
+    display: flex;
     justify-content: center;
 }
 
@@ -12,13 +13,12 @@ section {
     text-align: center;
 }
 
-section > * {
+section>* {
     padding: 10px;
 }
 
 header {
-    background-color:brown;
-
+    background-color: brown;
 }
 
 footer {
@@ -30,12 +30,78 @@ main {
     background: deepskyblue;
 }
 
-.aside_1{
+.aside_1 {
     background: gold;
 }
 
-.aside_2{
+.aside_2 {
     background: hotpink;
 }
 
+@media screen and (max-width: 600px) {
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    header,
+    main,
+    aside,
+    footer {
+        /* width: 100%; */
+        flex: 0 0 100%;
+    }
+}
 
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    header,
+    main,
+    aside,
+    footer {
+        /* width: 100%; */
+        flex: 0 0 100%;
+    }
+    aside {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    header,
+    main,
+    aside,
+    footer {
+        /* width: 100%; */
+        flex: 0 0 100%;
+    }
+    aside {
+        flex: 1 0 0;
+    }
+    header {
+        order: 0;
+    }
+    .aside_1 {
+        order: 1;
+    }
+    .aside_2 {
+        order: 3;
+    }
+    main {
+        flex: 3 0 0;
+        order: 2;
+    }
+    footer {
+        order: 4;
+    }
+}
