@@ -1,0 +1,40 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.container>header {
+    margin: 0 0 10px;
+}
+
+.container>header img {
+    height: 40px;
+}
+
+.container>header a:first-of-type {
+    padding: 0 26px 0 46px;
+}
+
+aside {
+    display: none;
+}
+
+.mainContent article header h2 {
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+.mainContent article header h2 a {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.mainContent article header p {
+    margin: 0 0 10px 40px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.mainContent article>p {
+    font-size: 16px;
+    line-height: 30px;
+}
