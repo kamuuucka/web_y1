@@ -4,62 +4,65 @@
 import the "style-large.css and style-small.css files here according to the browser window size.
 */
 
+@import url("style-small.css") screen and (max-width: 840px);
+@import url("style-large.css") screen and (min-width: 841px);
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
 }
 
-body{
-	background-color: #F5EBDA;
-	font-family: 'Source Sans Pro', sans-serif;
+body {
+    background-color: #F5EBDA;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-ul{
-	list-style-type: none;
+ul {
+    list-style-type: none;
 }
 
-h2{
-	color: #424242;
-	font-size: 36px;
-	text-transform: uppercase;
+h2 {
+    color: #424242;
+    font-size: 36px;
+    text-transform: uppercase;
 }
 
-h3{
-	margin: 0 0 32px 0;
-	color: #424242;
-	font-size: 24px;
-	text-transform: uppercase;
+h3 {
+    margin: 0 0 32px 0;
+    color: #424242;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
-p{
-	margin: 0 0 16px 0;
+p {
+    margin: 0 0 16px 0;
 }
 
-.wrapper{
-	background-color: #FFFFFF;
+.wrapper {
+    background-color: #FFFFFF;
+    margin: auto;
 }
 
-.mainNavigation{
-	margin: 32px 0 48px 0;
+.mainNavigation {
+    margin: 32px 0 48px 0;
 }
 
-.mainNavigation li a{
-	font-weight: 300;
-	color: #822209;
-	text-decoration: none;
-	text-transform: uppercase;
+.mainNavigation li a {
+    font-weight: 300;
+    color: #822209;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-article{
-	margin: 0 0 32px 0;
+article {
+    margin: 0 0 32px 0;
 }
 
-.footerNavigation ul li a img{
-    
-	width: 100%;
-	height: auto;
+.footerNavigation ul li a img {
+    width: 100%;
+    height: auto;
 }
 
-.footerNavigation ul li{
-    display:inline-block;
+.footerNavigation ul li {
+    display: inline-block;
 }

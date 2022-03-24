@@ -1,40 +1,41 @@
-body, div, ul, li, a, p{
+body,
+div,
+ul,
+li,
+a,
+p {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #AAAAAA;
     padding: 0 18px;
 }
 
-div.container{
-    
+div.container {
     padding: 18px;
     margin: 18px auto 0;
     background-color: #FFFFFF;
 }
 
-main{
+main {
     padding: 32px 0 18px;
 }
 
-
-li{
-    
+li {
+    display: inline;
 }
 
-
-
-a{
+li a {
     padding: 12px;
     border-left: 2px solid #FFFFFF;
 }
 
-li:first-of-type a{
+li:first-of-type a {
     border-left: none;
 }
 
-p{
+p {
     margin: 24px 0 0 0;
 }
