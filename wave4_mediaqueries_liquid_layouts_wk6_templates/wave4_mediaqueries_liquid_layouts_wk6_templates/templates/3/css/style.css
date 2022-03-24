@@ -4,11 +4,12 @@ import the "style-large.css and style-small.css files here according to the brow
 
 @import url("style-small.css") screen and (max-width: 800px);
 @import url("style-large.css") screen and (min-width: 801px);
-* {
+.container {
     max-width: 1100px;
 }
 
-body,
+
+/* body,
 div,
 ul,
 li,
@@ -16,7 +17,7 @@ a,
 p {
     margin: 0;
     padding: 0;
-}
+} */
 
 ul {
     list-style-type: none;

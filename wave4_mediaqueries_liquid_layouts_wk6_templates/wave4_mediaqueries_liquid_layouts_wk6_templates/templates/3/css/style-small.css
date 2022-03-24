@@ -1,25 +1,31 @@
-body, div, ul, li, a, p{
+body,
+div,
+ul,
+li,
+a,
+p {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #FFFFFF;
 }
 
-main{
+main {
     padding: 42px 24px 24px;
 }
 
-a{
+a {
+    display: block;
     padding: 12px 24px;
     border-top: 2px solid #FFFFFF;
 }
 
-li:first-of-type a{
+li:first-of-type a {
     border-top: none;
 }
 
-p{
+p {
     margin: 0 0 24px;
 }
