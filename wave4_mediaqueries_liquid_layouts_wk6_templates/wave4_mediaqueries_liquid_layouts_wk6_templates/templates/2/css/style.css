@@ -1,15 +1,25 @@
-
-a{
+a {
     padding: 10px;
     border-left: 2px solid #CCCCCC;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
-a:first-of-type{
+a:first-of-type {
     border-left: none;
     border-top: none;
 }
 
-a:hover{
+a:hover {
     color: #000000;
     background-color: #FFAAAA;
+}
+
+@media screen and (max-width:960px) {
+    a {
+        display: block;
+        border-top: 2px solid #CCCCCC;
+        border-left: none;
+    }
 }
