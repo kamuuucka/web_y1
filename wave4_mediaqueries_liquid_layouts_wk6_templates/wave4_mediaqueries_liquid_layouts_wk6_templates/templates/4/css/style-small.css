@@ -1,19 +1,52 @@
-.mainNavigation ul{
-	border-top: 1px solid #CCCCCC;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.mainNavigation li.active a{
-	background-color: #822209;
-	color: #FFFFFF;
+.mainNavigation ul {
+    border-top: 1px solid #CCCCCC;
 }
 
-.mainNavigation li a:hover{
-	text-decoration: none;
-	background-color: #826a09;
-	color: #FFFFFF;
+.mainNavigation li.active a {
+    background-color: #822209;
+    color: #FFFFFF;
 }
 
-.footerNavigation h2{
-	margin: 0 0 20px;
+.mainNavigation li a:hover {
+    text-decoration: none;
+    background-color: #826a09;
+    color: #FFFFFF;
+}
+
+.mainNavigation li a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    color: #822209;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+article img {
+    width: 40%;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.footerNavigation h2 {
+    margin: 0 0 20px;
     font-size: initial;
+}
+
+.footerNavigation ul li {
+    width: calc(50% - 40px);
+    margin-right: 20px;
+    margin-bottom: 20px;
 }

@@ -6,12 +6,6 @@ import the "style-large.css and style-small.css files here according to the brow
 
 @import url("style-small.css") screen and (max-width: 840px);
 @import url("style-large.css") screen and (min-width: 841px);
-* {
-    margin: 0;
-    padding: 0;
-    max-width: 1200px;
-}
-
 body {
     background-color: #F5EBDA;
     font-family: 'Source Sans Pro', sans-serif;
@@ -40,7 +34,8 @@ p {
 
 .wrapper {
     background-color: #FFFFFF;
-    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
 }
 
 .mainNavigation {
@@ -52,10 +47,6 @@ p {
     color: #822209;
     text-decoration: none;
     text-transform: uppercase;
-}
-
-article {
-    margin: 0 0 32px 0;
 }
 
 .footerNavigation ul li a img {
