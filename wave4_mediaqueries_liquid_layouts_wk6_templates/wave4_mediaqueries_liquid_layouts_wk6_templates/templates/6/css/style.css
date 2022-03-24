@@ -1,14 +1,22 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	background-color: #CCCCCC;
+body {
+    background-color: #CCCCCC;
+    display: flex;
+    justify-content: center;
 }
 
-main div{
-	background-color: #FFFFFF;
-	height: 400px;
-	margin: 10px;
+main {
+    width: 1200px;
+    display: flex;
+}
+
+main div {
+    background-color: #FFFFFF;
+    flex: 1 0 0;
+    height: 400px;
+    margin: 10px;
 }
