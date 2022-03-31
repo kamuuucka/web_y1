@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Roboto:wght@400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+    
+}
+body{
+    font-family: 'Open Sans';
+    font-size:16px;
+    font-weight: 400;
+}
+
+header{
+    margin-bottom: 20px;
+}
+header section{
+    height: 60px;
+    background-color: #232128;
+}
+
+header section  img{
+    margin-left:20px;
+    height: 100%;
+}
+header nav{
+    background-color: #f26723;
+    padding:20px 0 5px 0;
+}
+header nav a{
+    text-decoration: none;
+    color:white;
+    margin: 20px;
+}
+
+main{
+    float:left;
+    width:720px;
+    padding:10px;
+}
+main article h1,main article h2{
+    margin: 20px 0;
+}
+main article h3{
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+main article p{
+    margin-bottom:20px;
+}
+
+main  article figure img{
+    width:100%;
+}
+main article figure{
+    margin:10px 0;
+}
+main article figure figcaption{
+    text-align: right;
+    font-weight: 200;
+    font-size: 12px;
+}
+aside{
+    margin-top:160px;
+    float:left;
+    margin-left:20px;
+    width:300px;
+}
+aside>h1{
+    background-color: #f26723;
+    color:white;
+    padding:5px;
+}
+aside figure img{
+    width:100%;
+}
+
+aside figure{
+    border-bottom: 1px solid #BBB;
+    margin-bottom: 40px;
+}
+
+
+aside ul li{
+    list-style: none;
+    margin-bottom:10px;
+    float:left;
+}
+
+aside ul li h2{
+    margin-right:5px;
+    float:left;
+    font-size: 50px;
+    color:#BBB;
+    font-weight: 100;
+}
+
+aside ul li a{
+
+    float:left;
+    font-size: 16px;
+    color:#000;
+    font-weight: 300; 
+}
+aside ul li a{
+    text-decoration: none;
+    color:black;
+}

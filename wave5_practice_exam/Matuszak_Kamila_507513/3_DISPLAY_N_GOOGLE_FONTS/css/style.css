@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+a:hover {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #666;
+}

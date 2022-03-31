@@ -1,0 +1,36 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    color:#666;
+}
+
+header{
+    background-color: #DDD;
+    height:100px; 
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.48);
+}
+header img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+nav{
+    cursor:pointer;
+}
+main img{
+    width:100%;
+}
+
+li{
+    font-size:20px; 
+    border-bottom:1px solid #666;
+}
