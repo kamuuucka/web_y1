@@ -1,50 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
+    /* border: solid 1px red; */
 }
 
 body {
+    width: 80vw;
     margin: auto;
-    width: 82vw;
+    background-image: url('../images/MineCraft-Wallpaper-4k.jpg');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
-    background-color: red;
+h2 {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
 }
 
-.header header {
-    background-color: blue;
-    width: 56%;
-    margin: auto;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-}
-
-.header h1 {
+.pageTitle {
+    width: 100%;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Russo One', sans-serif;
-    font-size: 50px;
+    font-size: 2vw;
+}
+
+aside {
+    flex-grow: 0;
+    flex-basis: 14vw;
+    flex-shrink: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: rgba(76, 59, 83, 0.8);
+    border: rgb(43, 10, 51) solid 4px;
+    color: white;
+    padding: 0.5vw;
 }
 
 main {
-    font-size: 0;
+    flex-grow: 1;
+    flex: 1 1 30vw;
+    background-image: url('../images/266df7ab6322509273a9cddeeee5a3e7.jpg');
+    border: rgb(53, 34, 34) solid 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3vw;
+}
+
+aside nav {
+    list-style-type: none;
+}
+
+aside h2 {
+    text-align: center;
+    margin-bottom: 0.4vw;
+}
+
+aside li {
+    padding: 0.2vw 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.skin {
     width: 100%;
 }
 
-main section {
-    font-size: 16px;
-    height: 80vh;
+.wrapper {
+    background-image: url('../images/tumblr_8442be5b7633dd3d14d2873c0cb51bcf_dafaad94_1280.png');
+    border: rgb(67, 64, 64) solid 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-main .left,
-.right {
-    width: 22%;
-    background-color: blueviolet;
+.wrapper h2 {
+    font-size: 2vw;
+    color: aliceblue;
 }
 
-main .middle {
-    width: 56%;
-    background-color: red;
+.wrapper figure {
+    padding: 0;
+    padding-bottom: 0.1vw;
+    margin: 0;
+    background-color: rgb(108, 102, 102);
+    border: rgb(67, 64, 64) solid 2px;
+    width: 90%;
+    font-size: 0;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.wrapper figcaption {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8vw;
+    color: antiquewhite;
+}
+
+article {
+    text-align: justify;
+    color: white;
+    padding: 0.8vw;
+}
+
+article p {
+    padding: 0.3vw;
+    background-color: rgb(65, 63, 63);
 }
